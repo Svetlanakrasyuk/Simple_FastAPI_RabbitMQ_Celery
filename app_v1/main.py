@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 
+from celery_main import app_celery
 from database import init_db
 from routers import items
 
